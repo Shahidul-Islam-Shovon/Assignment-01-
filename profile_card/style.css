@@ -7,6 +7,7 @@
      margin-top: 6%;
      border-radius: 10px;
      text-align: center;
+     padding: 10px 20px;
 }
 .main_div img{
      width: 90px;
@@ -14,11 +15,12 @@
      border-radius: 50%;
      border: 1px solid gray;
      margin-top: 20px;
-     background-color: darkgray;
+
 }
 .main_div h3{
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .other_content p{
      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin: 15px;
 }
