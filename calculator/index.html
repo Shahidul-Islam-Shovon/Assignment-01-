@@ -16,30 +16,31 @@
     
      <div class="container calculator mt-4 mb-2">
           <h1 class="">Simple Calculator</h1>
-          <div class="mb-3 mt-4">
-               <div class="col-md-6">
-                    <label for="">Number 01: </label>
-                    <input type="text" id="num1" class="mt-2 form-control" placeholder="Enter First number ">
+          <div class="row">
+               <div class="mb-3 mt-4">
+                    <div class="col-md-12">
+                         <label for="">Number 01: </label>
+                         <input type="text" id="num1" class="form-control" placeholder="Enter First number">
+                    </div>      
                </div>
-               
-          </div>
-          <div class="mb-3 col-md-6">
-               <label for="">Operation : </label>
-               <select id="operator" class="mt-2 form-select">
-                    <option value="+">Addition (+)</option>
-                    <option value="-">Subtraction (-)</option>
-                    <option value="*">Multiplication (*)</option>
-                    <option value="/">Division (/)</option>
-               </select>
-          </div>
-          <div class="mb-3 col-md-6">
-               <label for="">Number 02: </label>
-               <input type="text" id="num2" class="mt-2 form-control" placeholder="Enter Second number ">
-          </div>
-          <button onclick="calculate()" class="btn btn-primary">Calculate</button>
+               <div class="mb-3 col-md-6">
+                    <label for="">Operation : </label>
+                    <select id="operator" class="mt-2 form-select">
+                         <option value="+">Addition (+)</option>
+                         <option value="-">Subtraction (-)</option>
+                         <option value="*">Multiplication (*)</option>
+                         <option value="/">Division (/)</option>
+                    </select>
+               </div>
+               <div class="mb-3 col-md-6">
+                    <label for="">Number 02: </label>
+                    <input type="text" id="num2" class="mt-2 form-control" placeholder="Enter Second number ">
+               </div>
+               <button onclick="calculate()" class="btn btn-primary">Calculate</button>
 
-          <div id="resultAlert" class="alert alert-primary mt-3" role="alert" style="display: none;">
-               <span id="result"></span>
+               <div id="resultAlert" class="alert alert-primary mt-3" role="alert" style="display: none;">
+                    <span id="result"></span>
+               </div>
           </div>
      </div>
 
